@@ -3,6 +3,7 @@
 /*
 !/.gitignore
 !/.github/
+!/LICENSE
 !/v_nivel/
 
 # Ficheros que genera Python

@@ -31,4 +31,10 @@ Si las condiciones de Freddie Mac piden una fórmula de atribución concreta, de
 
 ## El código
 
-© 2026 Lucía Sánchez Souto. Todos los derechos reservados. El código se facilita a los tutores y al tribunal para que puedan leerlo y reproducir los resultados de este trabajo académico. No se concede licencia para otros usos.
+El código y su documentación (los ficheros `.py`, `requirements.txt` y los `README.md`) se publican con la licencia MIT, cuyo texto está en el fichero `LICENSE` de la raíz del repositorio. Se pueden usar, copiar, modificar y redistribuir manteniendo el aviso de autoría.
+
+La licencia MIT no cubre los modelos de `v_nivel/modelos/` ni las tablas y figuras de `v_nivel/descriptivo/` y `v_nivel/resultados/`. Salen de los datos de Freddie Mac y siguen sujetos a sus condiciones (apartado «Los datos»).
+
+## La memoria
+
+© 2026 Lucía Sánchez Souto. Todos los derechos reservados. La memoria (`memoria_impago_hipotecario.pdf`) se puede leer y citar, pero no se concede licencia para copiarla, modificarla ni redistribuirla.

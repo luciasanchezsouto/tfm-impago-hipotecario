@@ -6,7 +6,8 @@ Todo el trabajo está en la carpeta [`v_nivel/`](/v_nivel):
 
 - [`memoria_impago_hipotecario.pdf`](/v_nivel/memoria_impago_hipotecario.pdf): la memoria y sus anexos.
 - [`README.md`](/v_nivel/README.md): qué hace cada script, cómo reproducir los resultados y cómo abrir la aplicación.
-- [`DERECHOS_DE_USO.md`](/v_nivel/DERECHOS_DE_USO.md): las condiciones de los datos de Freddie Mac y qué se publica aquí.
+- [`DERECHOS_DE_USO.md`](/v_nivel/DERECHOS_DE_USO.md): las condiciones de los datos de Freddie Mac, qué se publica aquí y con qué derechos.
+- [`LICENSE`](/LICENSE): la licencia MIT del código. No cubre la memoria ni los modelos y tablas que salen de los datos de Freddie Mac.
 
 Para abrir la aplicación, desde la raíz del repositorio:
 

@@ -44,7 +44,7 @@ v_nivel/
 ├── resultados/           métricas, calibración, importancia, modelos con nivel, discrepancias y figuras de los modelos
 ├── figuras/              capturas de la aplicación que usa la memoria
 ├── memoria_impago_hipotecario.pdf   la memoria
-└── DERECHOS_DE_USO.md    condiciones de los datos y qué se publica
+└── DERECHOS_DE_USO.md    condiciones de los datos, licencia del código y derechos de la memoria
 ```
 
 Los datos no están en el repositorio: los scripts los leen y escriben fuera de esta carpeta, en `data/` en la raíz del repositorio. Sí están los dos modelos con nivel de 2025 con que puntúa la aplicación, en `modelos/`, de modo que la aplicación funciona sin descargar ni entrenar nada.
