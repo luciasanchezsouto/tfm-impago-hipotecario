@@ -1,0 +1,32 @@
+variable,comprobacion,filas,porcentaje
+fico,sin dato,309803,0.1414
+ltv,sin dato,10436,0.0048
+dti,sin dato,21161245,9.6592
+importe,sin dato,0,0.0
+tipo_inicial,sin dato,0,0.0
+plazo,sin dato,0,0.0
+seguro,sin dato,2435,0.0011
+unidades,sin dato,14228,0.0065
+prestatarios,sin dato,28038,0.0128
+antiguedad,sin dato,0,0.0
+saldo,sin dato,0,0.0
+ltv_actual,sin dato,10436,0.0048
+mora_actual,sin dato,0,0.0
+mora_maxima_12m,sin dato,0,0.0
+meses_en_mora_12m,sin dato,0,0.0
+modificado,sin dato,0,0.0
+ocupacion,sin dato,0,0.0
+finalidad,sin dato,371,0.0002
+primer_comprador,sin dato,82023,0.0374
+canal,sin dato,7619,0.0035
+inmueble,sin dato,9565,0.0044
+estado,sin dato,0,0.0
+fico,FICO fuera de 300-850,0,0.0
+ltv,LTV mayor de 200,109942,0.0502
+ltv_actual,LTV actual mayor de 200,59337,0.0271
+dti,DTI fuera de 0-100,0,0.0
+tipo_inicial,Tipo de interés 0 o menos,1,0.0
+plazo,Plazo 0 meses o menos,4,0.0
+plazo,Plazo más de 480 meses,381,0.0002
+antiguedad,Antigüedad negativa,85,0.0
+saldo,Saldo 0 o menos,70,0.0

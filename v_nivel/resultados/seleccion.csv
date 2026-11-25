@@ -1,0 +1,57 @@
+anio,k,modelo,auc,captura,calibracion,variables
+2008,22,xgboost,0.8936891585323938,0.6670459856536141,0.608337992417805,fico mora_maxima_12m ltv_actual prestatarios estado tipo_inicial dti importe plazo finalidad antiguedad meses_en_mora_12m canal mora_actual ltv saldo inmueble seguro ocupacion unidades primer_comprador modificado
+2008,10,xgboost,0.8912556295656351,0.6572412671963586,0.564230473189373,fico mora_maxima_12m ltv_actual prestatarios estado tipo_inicial dti importe plazo finalidad
+2008,5,xgboost,0.877696268474558,0.6243522789620207,0.5461548556626157,fico mora_maxima_12m ltv_actual prestatarios estado
+2008,3,xgboost,0.8768468130980099,0.6334559346487574,0.5087973122555253,fico mora_maxima_12m ltv_actual
+2008,22,logit,0.8838955048716778,0.646318912438276,0.4985759092489284,fico mora_maxima_12m ltv_actual prestatarios estado tipo_inicial dti importe plazo finalidad antiguedad meses_en_mora_12m canal mora_actual ltv saldo inmueble seguro ocupacion unidades primer_comprador modificado
+2008,10,logit,0.8841246685151313,0.6429355225457722,0.46456089192453054,fico mora_maxima_12m ltv_actual prestatarios estado tipo_inicial dti importe plazo finalidad
+2008,5,logit,0.8803088558873742,0.6360874601207047,0.4988323358623793,fico mora_maxima_12m ltv_actual prestatarios estado
+2011,22,xgboost,0.9049063182920346,0.6879162499734025,1.1056805174661168,fico ltv_actual mora_maxima_12m tipo_inicial prestatarios estado antiguedad dti finalidad mora_actual saldo ltv plazo meses_en_mora_12m canal importe inmueble ocupacion seguro primer_comprador unidades modificado
+2011,10,xgboost,0.9017531713505087,0.6761850047166131,1.0717949767829107,fico ltv_actual mora_maxima_12m tipo_inicial prestatarios estado antiguedad dti finalidad mora_actual
+2011,5,xgboost,0.8828471705122789,0.6319552311849692,1.1169406693012847,fico ltv_actual mora_maxima_12m tipo_inicial prestatarios
+2011,3,xgboost,0.8584831565831584,0.611762452922527,1.2232439753356181,fico ltv_actual mora_maxima_12m
+2011,22,logit,0.8929564121508707,0.6659857721414842,1.1170238649953421,fico ltv_actual mora_maxima_12m tipo_inicial prestatarios estado antiguedad dti finalidad mora_actual saldo ltv plazo meses_en_mora_12m canal importe inmueble ocupacion seguro primer_comprador unidades modificado
+2011,10,logit,0.8878709589990116,0.6573256448993198,1.150215355523154,fico ltv_actual mora_maxima_12m tipo_inicial prestatarios estado antiguedad dti finalidad mora_actual
+2011,5,logit,0.8748901489625448,0.6265364455887256,1.21930004227603,fico ltv_actual mora_maxima_12m tipo_inicial prestatarios
+2014,22,xgboost,0.9054375918661808,0.7006437248923092,0.9853328781366113,fico ltv_actual mora_maxima_12m tipo_inicial antiguedad prestatarios dti estado plazo finalidad mora_actual saldo ltv importe meses_en_mora_12m canal inmueble ocupacion seguro primer_comprador unidades modificado
+2014,10,xgboost,0.9016573275743853,0.693577271187261,0.9734108621418297,fico ltv_actual mora_maxima_12m tipo_inicial antiguedad prestatarios dti estado plazo finalidad
+2014,5,xgboost,0.8939938610586873,0.6817030476098285,0.8923976078525896,fico ltv_actual mora_maxima_12m tipo_inicial antiguedad
+2014,3,xgboost,0.8631143432617261,0.6626494361357146,1.1531206786392751,fico ltv_actual mora_maxima_12m
+2014,22,logit,0.8907736009608934,0.6801219689269639,0.9827136021567625,fico ltv_actual mora_maxima_12m tipo_inicial antiguedad prestatarios dti estado plazo finalidad mora_actual saldo ltv importe meses_en_mora_12m canal inmueble ocupacion seguro primer_comprador unidades modificado
+2014,10,logit,0.8899282639539909,0.6814126454027717,1.0085857555747961,fico ltv_actual mora_maxima_12m tipo_inicial antiguedad prestatarios dti estado plazo finalidad
+2014,5,logit,0.885364597538413,0.6836390623235403,0.887654774666601,fico ltv_actual mora_maxima_12m tipo_inicial antiguedad
+2017,22,xgboost,0.8640184315770537,0.6127397285706329,0.6640994749973352,fico mora_maxima_12m ltv_actual tipo_inicial antiguedad prestatarios dti estado plazo finalidad importe mora_actual meses_en_mora_12m ltv saldo canal inmueble seguro ocupacion primer_comprador unidades modificado
+2017,10,xgboost,0.8628854708529519,0.6126654660898947,0.6483427836738053,fico mora_maxima_12m ltv_actual tipo_inicial antiguedad prestatarios dti estado plazo finalidad
+2017,5,xgboost,0.8498404104579058,0.6021944563058129,0.5954894778689745,fico mora_maxima_12m ltv_actual tipo_inicial antiguedad
+2017,3,xgboost,0.8367308162740025,0.6016746189406457,0.6700657187805332,fico mora_maxima_12m ltv_actual
+2017,22,logit,0.8611440715013878,0.6283719807660175,0.590382655448762,fico mora_maxima_12m ltv_actual tipo_inicial antiguedad prestatarios dti estado plazo finalidad importe mora_actual meses_en_mora_12m ltv saldo canal inmueble seguro ocupacion primer_comprador unidades modificado
+2017,10,logit,0.8639939136521075,0.6375619627573659,0.5681642458681904,fico mora_maxima_12m ltv_actual tipo_inicial antiguedad prestatarios dti estado plazo finalidad
+2017,5,logit,0.850677432311591,0.6086924233704026,0.5000924761933316,fico mora_maxima_12m ltv_actual tipo_inicial antiguedad
+2019,22,xgboost,0.870082853810271,0.6860887819364088,0.9331096193858329,fico mora_maxima_12m tipo_inicial ltv_actual prestatarios mora_actual antiguedad dti estado plazo finalidad importe meses_en_mora_12m saldo ltv canal inmueble seguro ocupacion primer_comprador unidades modificado
+2019,10,xgboost,0.8884152923165385,0.7020121857559777,0.9170755618655962,fico mora_maxima_12m tipo_inicial ltv_actual prestatarios mora_actual antiguedad dti estado plazo
+2019,5,xgboost,0.8869467055983407,0.710357892581025,0.7768476491903791,fico mora_maxima_12m tipo_inicial ltv_actual prestatarios
+2019,3,xgboost,0.8729233661141302,0.6898008294506169,0.742964575305666,fico mora_maxima_12m tipo_inicial
+2019,22,logit,0.8780861436840038,0.6875736009420921,0.8577749923977698,fico mora_maxima_12m tipo_inicial ltv_actual prestatarios mora_actual antiguedad dti estado plazo finalidad importe meses_en_mora_12m saldo ltv canal inmueble seguro ocupacion primer_comprador unidades modificado
+2019,10,logit,0.8806583953268808,0.6925144641851416,0.8444942180287934,fico mora_maxima_12m tipo_inicial ltv_actual prestatarios mora_actual antiguedad dti estado plazo
+2019,5,logit,0.882336643903668,0.7102554912702883,0.7212363297043287,fico mora_maxima_12m tipo_inicial ltv_actual prestatarios
+2020,22,xgboost,0.709942542441133,0.2965494730197439,0.09980753892313261,mora_actual tipo_inicial mora_maxima_12m plazo estado fico ltv_actual prestatarios antiguedad dti meses_en_mora_12m finalidad importe saldo ltv canal inmueble seguro ocupacion primer_comprador unidades modificado
+2020,10,xgboost,0.708611167481647,0.29450197870498007,0.10097772826474043,mora_actual tipo_inicial mora_maxima_12m plazo estado fico ltv_actual prestatarios antiguedad dti
+2020,5,xgboost,0.631796835077282,0.23924391079506982,0.08801878248816204,mora_actual tipo_inicial mora_maxima_12m plazo estado
+2020,3,xgboost,0.6104264607010016,0.218661062808709,0.07773309052716076,mora_actual tipo_inicial mora_maxima_12m
+2020,22,logit,0.7187506226250363,0.2991715606007062,0.09056488580987382,mora_actual tipo_inicial mora_maxima_12m plazo estado fico ltv_actual prestatarios antiguedad dti meses_en_mora_12m finalidad importe saldo ltv canal inmueble seguro ocupacion primer_comprador unidades modificado
+2020,10,logit,0.7104880459378737,0.28995109213184894,0.08836915876894787,mora_actual tipo_inicial mora_maxima_12m plazo estado fico ltv_actual prestatarios antiguedad dti
+2020,5,logit,0.6289837451345971,0.23769817398036672,0.0854315460617355,mora_actual tipo_inicial mora_maxima_12m plazo estado
+2022,22,xgboost,0.8464458248049536,0.5787800105366148,1.2137001075468818,fico ltv_actual antiguedad mora_maxima_12m prestatarios dti estado tipo_inicial plazo saldo finalidad importe mora_actual ltv meses_en_mora_12m canal ocupacion seguro primer_comprador inmueble unidades modificado
+2022,10,xgboost,0.840572111730695,0.5733988108677655,1.1540865884130307,fico ltv_actual antiguedad mora_maxima_12m prestatarios dti estado tipo_inicial plazo saldo
+2022,5,xgboost,0.8388683904465315,0.5802852412132159,1.1588325383048934,fico ltv_actual antiguedad mora_maxima_12m prestatarios
+2022,3,xgboost,0.7422569711563007,0.3349702716941371,1.1340320534328943,fico ltv_actual antiguedad
+2022,22,logit,0.8337995891817028,0.5587416271543614,1.0734874567565629,fico ltv_actual antiguedad mora_maxima_12m prestatarios dti estado tipo_inicial plazo saldo finalidad importe mora_actual ltv meses_en_mora_12m canal ocupacion seguro primer_comprador inmueble unidades modificado
+2022,10,logit,0.8322930562843759,0.556276811921427,1.0475181751913722,fico ltv_actual antiguedad mora_maxima_12m prestatarios dti estado tipo_inicial plazo saldo
+2022,5,logit,0.837932922801837,0.5790246105215624,1.1284420804538424,fico ltv_actual antiguedad mora_maxima_12m prestatarios
+2025,22,xgboost,0.888397794506559,0.6979068774028193,1.0322208748722608,fico ltv_actual prestatarios mora_maxima_12m dti antiguedad tipo_inicial estado saldo finalidad plazo mora_actual ltv importe meses_en_mora_12m canal ocupacion primer_comprador seguro inmueble unidades modificado
+2025,10,xgboost,0.8856146793997469,0.6958707105225687,0.983068482865319,fico ltv_actual prestatarios mora_maxima_12m dti antiguedad tipo_inicial estado saldo finalidad
+2025,5,xgboost,0.8848267061118325,0.6944752954577815,0.8943065806065967,fico ltv_actual prestatarios mora_maxima_12m dti
+2025,3,xgboost,0.782934787001724,0.40783141107788695,0.808313129378492,fico ltv_actual prestatarios
+2025,22,logit,0.8800825405572322,0.6860743272105938,0.9685794498543803,fico ltv_actual prestatarios mora_maxima_12m dti antiguedad tipo_inicial estado saldo finalidad plazo mora_actual ltv importe meses_en_mora_12m canal ocupacion primer_comprador seguro inmueble unidades modificado
+2025,10,logit,0.8796071307785202,0.6884237505339599,0.8946151537601895,fico ltv_actual prestatarios mora_maxima_12m dti antiguedad tipo_inicial estado saldo finalidad
+2025,5,logit,0.8831025565342085,0.6932792254022497,0.8127144713617678,fico ltv_actual prestatarios mora_maxima_12m dti

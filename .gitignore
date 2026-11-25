@@ -1,0 +1,25 @@
+# Este repositorio publica solo la entrega del trabajo: la carpeta v_nivel.
+# Los datos de Freddie Mac y todo lo que permita reconstruirlos quedan fuera (véase v_nivel/DERECHOS_DE_USO.md).
+/*
+!/.gitignore
+!/.github/
+!/v_nivel/
+
+# Ficheros que genera Python
+__pycache__/
+*.pyc
+
+# De la memoria se publica solo memoria_impago_hipotecario.pdf. Quedan en local su fuente LaTeX, el logotipo de la
+# portada y la copia con el anexo del código fuente (memoria.tex y memoria.pdf).
+/v_nivel/memoria.tex
+/v_nivel/memoria.pdf
+/v_nivel/memoria_impago_hipotecario.tex
+/v_nivel/figuras/ucm-logo.png
+
+# Documentos de trabajo que no forman parte de la entrega
+/v_nivel/guion_video.md
+
+# Salidas de las ejecuciones de prueba (modo piloto y años sueltos)
+/v_nivel/descriptivo_piloto/
+/v_nivel/resultados_piloto/
+/v_nivel/resultados/*_parcial.*

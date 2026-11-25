@@ -1,0 +1,374 @@
+--- 1_datos.py, 14/11 23:00
+1999Q1: 486,627 préstamos, 2,288,777 filas
+1999Q2: 337,374 préstamos, 1,504,779 filas
+1999Q3: 222,195 préstamos, 817,354 filas
+1999Q4: 171,497 préstamos, 522,562 filas
+2000Q1: 117,437 préstamos, 269,423 filas
+2000Q2: 183,723 préstamos, 382,462 filas
+2000Q3: 209,449 préstamos, 467,762 filas
+2000Q4: 235,759 préstamos, 514,553 filas
+2001Q1: 402,947 préstamos, 1,071,362 filas
+2001Q2: 628,471 préstamos, 1,836,523 filas
+2001Q3: 543,920 préstamos, 1,687,295 filas
+2001Q4: 921,709 préstamos, 3,420,109 filas
+2002Q1: 643,976 préstamos, 1,973,994 filas
+2002Q2: 475,639 préstamos, 1,467,279 filas
+2002Q3: 794,570 préstamos, 3,380,329 filas
+2002Q4: 1,078,491 préstamos, 5,731,356 filas
+2003Q1: 922,453 préstamos, 5,255,996 filas
+2003Q2: 1,216,823 préstamos, 8,195,506 filas
+2003Q3: 1,287,084 préstamos, 9,246,875 filas
+2003Q4: 478,046 préstamos, 3,032,013 filas
+2004Q1: 494,532 préstamos, 3,100,418 filas
+2004Q2: 525,067 préstamos, 3,316,794 filas
+2004Q3: 313,544 préstamos, 1,886,178 filas
+2004Q4: 344,060 préstamos, 2,166,900 filas
+2005Q1: 338,336 préstamos, 1,995,477 filas
+2005Q2: 387,869 préstamos, 2,312,188 filas
+2005Q3: 508,343 préstamos, 3,177,495 filas
+2005Q4: 376,907 préstamos, 2,116,592 filas
+2006Q1: 298,574 préstamos, 1,435,917 filas
+2006Q2: 308,208 préstamos, 1,396,126 filas
+2006Q3: 283,975 préstamos, 1,292,434 filas
+2006Q4: 302,787 préstamos, 1,427,225 filas
+2007Q1: 302,331 préstamos, 1,327,466 filas
+2007Q2: 354,055 préstamos, 1,577,381 filas
+2007Q3: 284,980 préstamos, 1,167,307 filas
+2007Q4: 296,826 préstamos, 1,193,711 filas
+2008Q1: 421,635 préstamos, 1,617,669 filas
+2008Q2: 370,982 préstamos, 1,418,947 filas
+2008Q3: 221,752 préstamos, 750,196 filas
+2008Q4: 218,777 préstamos, 743,837 filas
+2009Q1: 621,542 préstamos, 2,601,867 filas
+2009Q2: 716,665 préstamos, 3,761,485 filas
+2009Q3: 443,064 préstamos, 2,388,550 filas
+2009Q4: 445,753 préstamos, 2,331,711 filas
+2010Q1: 360,856 préstamos, 1,740,586 filas
+2010Q2: 363,854 préstamos, 1,817,300 filas
+2010Q3: 503,408 préstamos, 2,917,721 filas
+2010Q4: 592,072 préstamos, 3,722,232 filas
+2011Q1: 332,606 préstamos, 1,794,831 filas
+2011Q2: 266,598 préstamos, 1,396,176 filas
+2011Q3: 356,393 préstamos, 2,107,568 filas
+2011Q4: 427,411 préstamos, 2,759,946 filas
+2012Q1: 414,792 préstamos, 2,700,169 filas
+2012Q2: 462,380 préstamos, 3,213,369 filas
+2012Q3: 563,453 préstamos, 4,294,047 filas
+2012Q4: 592,713 préstamos, 4,514,875 filas
+2013Q1: 610,573 préstamos, 4,383,457 filas
+2013Q2: 578,836 préstamos, 4,161,936 filas
+2013Q3: 375,908 préstamos, 2,400,365 filas
+2013Q4: 289,730 préstamos, 1,673,649 filas
+2014Q1: 221,854 préstamos, 1,129,564 filas
+2014Q2: 290,992 préstamos, 1,518,915 filas
+2014Q3: 326,457 préstamos, 1,806,579 filas
+2014Q4: 303,696 préstamos, 1,650,933 filas
+2015Q1: 365,427 préstamos, 1,961,755 filas
+2015Q2: 411,644 préstamos, 2,268,130 filas
+2015Q3: 365,197 préstamos, 1,959,783 filas
+2015Q4: 332,108 préstamos, 1,749,955 filas
+2016Q1: 308,511 préstamos, 1,494,461 filas
+2016Q2: 431,540 préstamos, 2,234,741 filas
+2016Q3: 477,475 préstamos, 2,616,178 filas
+2016Q4: 472,042 préstamos, 2,444,108 filas
+2017Q1: 290,601 préstamos, 1,203,402 filas
+2017Q2: 337,270 préstamos, 1,407,600 filas
+2017Q3: 391,807 préstamos, 1,735,324 filas
+2017Q4: 360,105 préstamos, 1,529,096 filas
+2018Q1: 296,816 préstamos, 987,597 filas
+2018Q2: 364,502 préstamos, 1,113,834 filas
+2018Q3: 336,669 préstamos, 1,027,699 filas
+2018Q4: 287,447 préstamos, 767,939 filas
+2019Q1: 279,861 préstamos, 634,910 filas
+2019Q2: 413,821 préstamos, 1,074,796 filas
+2019Q3: 542,237 préstamos, 1,704,106 filas
+2019Q4: 545,225 préstamos, 1,659,228 filas
+2020Q1: 517,072 préstamos, 1,436,706 filas
+2020Q2: 926,253 préstamos, 3,313,689 filas
+2020Q3: 1,187,781 préstamos, 4,891,408 filas
+2020Q4: 1,282,634 préstamos, 5,162,102 filas
+2021Q1: 1,219,583 préstamos, 4,284,689 filas
+2021Q2: 967,258 préstamos, 3,449,835 filas
+2021Q3: 1,045,330 préstamos, 3,837,223 filas
+2021Q4: 864,197 préstamos, 2,948,728 filas
+2022Q1: 583,706 préstamos, 1,614,770 filas
+2022Q2: 437,886 préstamos, 1,212,786 filas
+2022Q3: 336,778 préstamos, 938,715 filas
+2022Q4: 222,383 préstamos, 542,541 filas
+2023Q1: 186,034 préstamos, 342,495 filas
+2023Q2: 276,113 préstamos, 518,192 filas
+2023Q3: 262,614 préstamos, 492,117 filas
+2023Q4: 206,989 préstamos, 317,114 filas
+2024Q1: 215,002 préstamos, 201,045 filas
+2024Q2: 255,660 préstamos, 243,755 filas
+2024Q3: 296,111 préstamos, 290,832 filas
+2024Q4: 281,889 préstamos, 190,516 filas
+2025Q1: 210,933 préstamos, 0 filas
+2025Q2: 268,133 préstamos, 0 filas
+2025Q3: 289,655 préstamos, 0 filas
+2025Q4: 320,791 préstamos, 0 filas
+2026Q1: 276,735 préstamos, 0 filas
+2026Q2: 162,137 préstamos, 0 filas
+--- 1_datos.py terminado en 15 minutos
+--- 3_modelos.py, 14/11 23:15
+Muestra de entrenamiento: 22,431,012 filas de 2000 a 2024
+2008: 4,244,098 filas de entrenamiento, 8,439,154 de prueba
+--- 1_datos.py, 14/11 23:18
+--- 1_datos.py terminado en 0 minutos
+--- 3_modelos.py, 14/11 23:18
+Muestra de entrenamiento: 22,431,012 filas de 2000 a 2024
+2008: 4,244,098 filas de entrenamiento, 8,439,154 de prueba
+  regla    AUC 0.6676  captura 0.403  calibración 0.56  0 s
+  logit    AUC 0.8826  captura 0.643  calibración 0.50  23 s
+  xgboost  AUC 0.8941  captura 0.670  calibración 0.58  8 s
+2009: 5,176,443 filas de entrenamiento, 8,879,191 de prueba
+  regla    AUC 0.6649  captura 0.393  calibración 0.53  0 s
+  logit    AUC 0.8760  captura 0.605  calibración 0.36  26 s
+  xgboost  AUC 0.8880  captura 0.642  calibración 0.43  9 s
+2010: 6,267,374 filas de entrenamiento, 9,186,948 de prueba
+  regla    AUC 0.7109  captura 0.477  calibración 1.29  0 s
+  logit    AUC 0.8884  captura 0.655  calibración 0.74  30 s
+  xgboost  AUC 0.9070  captura 0.698  calibración 0.84  10 s
+2011: 7,360,218 filas de entrenamiento, 9,073,477 de prueba
+  regla    AUC 0.6888  captura 0.439  calibración 1.23  0 s
+  logit    AUC 0.8855  captura 0.647  calibración 0.97  35 s
+  xgboost  AUC 0.9032  captura 0.683  calibración 0.97  11 s
+2012: 8,395,113 filas de entrenamiento, 8,852,698 de prueba
+  regla    AUC 0.6915  captura 0.445  calibración 1.15  0 s
+  logit    AUC 0.8844  captura 0.644  calibración 1.10  35 s
+  xgboost  AUC 0.9033  captura 0.685  calibración 1.01  12 s
+2013: 9,382,720 filas de entrenamiento, 8,484,681 de prueba
+  regla    AUC 0.7110  captura 0.480  calibración 1.30  0 s
+  logit    AUC 0.8928  captura 0.679  calibración 1.40  38 s
+  xgboost  AUC 0.9081  captura 0.707  calibración 1.17  13 s
+2014: 10,303,369 filas de entrenamiento, 8,637,362 de prueba
+  regla    AUC 0.7053  captura 0.472  calibración 1.21  0 s
+  logit    AUC 0.8895  captura 0.679  calibración 1.47  43 s
+  xgboost  AUC 0.9076  captura 0.706  calibración 1.19  13 s
+2015: 11,223,146 filas de entrenamiento, 8,769,854 de prueba
+  regla    AUC 0.7031  captura 0.464  calibración 1.21  0 s
+  logit    AUC 0.8855  captura 0.682  calibración 1.61  48 s
+  xgboost  AUC 0.9061  captura 0.711  calibración 1.27  14 s
+2016: 12,143,183 filas de entrenamiento, 9,041,455 de prueba
+  regla    AUC 0.7018  captura 0.465  calibración 1.09  0 s
+  logit    AUC 0.8810  captura 0.682  calibración 1.58  51 s
+  xgboost  AUC 0.9052  captura 0.717  calibración 1.19  15 s
+2017: 13,085,555 filas de entrenamiento, 9,237,704 de prueba
+  regla    AUC 0.6617  captura 0.390  calibración 0.81  0 s
+  logit    AUC 0.8561  captura 0.618  calibración 1.13  55 s
+  xgboost  AUC 0.8668  captura 0.615  calibración 0.85  16 s
+2018: 14,058,388 filas de entrenamiento, 9,514,504 de prueba
+  regla    AUC 0.7447  captura 0.543  calibración 1.48  0 s
+  logit    AUC 0.8866  captura 0.708  calibración 1.62  61 s
+  xgboost  AUC 0.9081  captura 0.738  calibración 1.36  16 s
+2019: 15,047,342 filas de entrenamiento, 9,761,749 de prueba
+  regla    AUC 0.7120  captura 0.484  calibración 0.94  0 s
+  logit    AUC 0.8727  captura 0.676  calibración 1.49  67 s
+  xgboost  AUC 0.8968  captura 0.716  calibración 1.14  17 s
+2020: 16,059,499 filas de entrenamiento, 10,161,668 de prueba
+  regla    AUC 0.5332  captura 0.158  calibración 0.11  0 s
+  logit    AUC 0.7160  captura 0.298  calibración 0.16  69 s
+  xgboost  AUC 0.7143  captura 0.306  calibración 0.12  18 s
+2021: 17,409,830 filas de entrenamiento, 10,594,228 de prueba
+  regla    AUC 0.7031  captura 0.465  calibración 5.29  0 s
+  logit    AUC 0.8428  captura 0.602  calibración 1.55  71 s
+  xgboost  AUC 0.8240  captura 0.577  calibración 2.16  19 s
+2022: 18,536,673 filas de entrenamiento, 11,993,148 de prueba
+  regla    AUC 0.6443  captura 0.360  calibración 1.32  0 s
+  logit    AUC 0.8241  captura 0.542  calibración 1.81  78 s
+  xgboost  AUC 0.8277  captura 0.544  calibración 1.61  21 s
+2023: 19,786,265 filas de entrenamiento, 12,552,083 de prueba
+  regla    AUC 0.6772  captura 0.418  calibración 0.99  0 s
+  logit    AUC 0.8608  captura 0.628  calibración 1.77  80 s
+  xgboost  AUC 0.8580  captura 0.614  calibración 1.51  22 s
+2024: 21,098,457 filas de entrenamiento, 12,712,531 de prueba
+  regla    AUC 0.6830  captura 0.431  calibración 0.98  0 s
+  logit    AUC 0.8696  captura 0.654  calibración 1.72  87 s
+  xgboost  AUC 0.8541  captura 0.622  calibración 2.10  23 s
+2025: 22,431,012 filas de entrenamiento, 12,862,354 de prueba
+  regla    AUC 0.6996  captura 0.459  calibración 0.98  0 s
+  logit    AUC 0.8783  captura 0.684  calibración 1.73  88 s
+  xgboost  AUC 0.8857  captura 0.696  calibración 1.58  24 s
+--- 3_modelos.py terminado en 31 minutos
+--- 1_datos.py, 15/11 09:11
+--- 1_datos.py terminado en 0 minutos
+--- 3_modelos.py, 15/11 09:11
+Muestra de entrenamiento: 22,431,012 filas de 2000 a 2024
+2008: 4,244,098 filas de entrenamiento, 8,439,154 de prueba
+  regla    AUC 0.6676  captura 0.403  calibración 0.56  0 s
+  logit    AUC 0.8826  captura 0.643  calibración 0.50  23 s
+  xgboost  AUC 0.8941  captura 0.670  calibración 0.58  8 s
+2009: 5,176,443 filas de entrenamiento, 8,879,191 de prueba
+  regla    AUC 0.6649  captura 0.393  calibración 0.53  0 s
+  logit    AUC 0.8760  captura 0.605  calibración 0.36  26 s
+  xgboost  AUC 0.8880  captura 0.642  calibración 0.43  9 s
+2010: 6,267,374 filas de entrenamiento, 9,186,948 de prueba
+  regla    AUC 0.7109  captura 0.477  calibración 1.29  0 s
+  logit    AUC 0.8884  captura 0.655  calibración 0.74  30 s
+  xgboost  AUC 0.9070  captura 0.698  calibración 0.84  10 s
+2011: 7,360,218 filas de entrenamiento, 9,073,477 de prueba
+  regla    AUC 0.6888  captura 0.439  calibración 1.23  0 s
+  logit    AUC 0.8855  captura 0.647  calibración 0.97  34 s
+  xgboost  AUC 0.9032  captura 0.683  calibración 0.97  11 s
+2012: 8,395,113 filas de entrenamiento, 8,852,698 de prueba
+  regla    AUC 0.6915  captura 0.445  calibración 1.15  0 s
+  logit    AUC 0.8844  captura 0.644  calibración 1.10  34 s
+  xgboost  AUC 0.9033  captura 0.685  calibración 1.01  12 s
+2013: 9,382,720 filas de entrenamiento, 8,484,681 de prueba
+  regla    AUC 0.7110  captura 0.480  calibración 1.30  0 s
+  logit    AUC 0.8928  captura 0.679  calibración 1.40  37 s
+  xgboost  AUC 0.9081  captura 0.707  calibración 1.17  12 s
+2014: 10,303,369 filas de entrenamiento, 8,637,362 de prueba
+  regla    AUC 0.7053  captura 0.472  calibración 1.21  0 s
+  logit    AUC 0.8895  captura 0.679  calibración 1.47  42 s
+  xgboost  AUC 0.9076  captura 0.706  calibración 1.19  13 s
+2015: 11,223,146 filas de entrenamiento, 8,769,854 de prueba
+  regla    AUC 0.7031  captura 0.464  calibración 1.21  0 s
+  logit    AUC 0.8855  captura 0.682  calibración 1.61  47 s
+  xgboost  AUC 0.9061  captura 0.711  calibración 1.27  14 s
+2016: 12,143,183 filas de entrenamiento, 9,041,455 de prueba
+  regla    AUC 0.7018  captura 0.465  calibración 1.09  0 s
+  logit    AUC 0.8810  captura 0.682  calibración 1.58  50 s
+  xgboost  AUC 0.9052  captura 0.717  calibración 1.19  15 s
+2017: 13,085,555 filas de entrenamiento, 9,237,704 de prueba
+  regla    AUC 0.6617  captura 0.390  calibración 0.81  0 s
+  logit    AUC 0.8561  captura 0.618  calibración 1.13  52 s
+  xgboost  AUC 0.8668  captura 0.615  calibración 0.85  15 s
+2018: 14,058,388 filas de entrenamiento, 9,514,504 de prueba
+  regla    AUC 0.7447  captura 0.543  calibración 1.48  0 s
+  logit    AUC 0.8866  captura 0.708  calibración 1.62  57 s
+  xgboost  AUC 0.9081  captura 0.738  calibración 1.36  16 s
+2019: 15,047,342 filas de entrenamiento, 9,761,749 de prueba
+  regla    AUC 0.7120  captura 0.484  calibración 0.94  0 s
+  logit    AUC 0.8727  captura 0.676  calibración 1.49  64 s
+  xgboost  AUC 0.8968  captura 0.716  calibración 1.14  17 s
+2020: 16,059,499 filas de entrenamiento, 10,161,668 de prueba
+  regla    AUC 0.5332  captura 0.158  calibración 0.11  0 s
+  logit    AUC 0.7160  captura 0.298  calibración 0.16  69 s
+  xgboost  AUC 0.7143  captura 0.306  calibración 0.12  18 s
+2021: 17,409,830 filas de entrenamiento, 10,594,228 de prueba
+  regla    AUC 0.7031  captura 0.465  calibración 5.29  0 s
+  logit    AUC 0.8428  captura 0.602  calibración 1.55  71 s
+  xgboost  AUC 0.8240  captura 0.577  calibración 2.16  19 s
+2022: 18,536,673 filas de entrenamiento, 11,993,148 de prueba
+  regla    AUC 0.6443  captura 0.360  calibración 1.32  0 s
+  logit    AUC 0.8241  captura 0.542  calibración 1.81  78 s
+  xgboost  AUC 0.8277  captura 0.544  calibración 1.61  21 s
+2023: 19,786,265 filas de entrenamiento, 12,552,083 de prueba
+  regla    AUC 0.6772  captura 0.418  calibración 0.99  0 s
+  logit    AUC 0.8608  captura 0.628  calibración 1.77  80 s
+  xgboost  AUC 0.8580  captura 0.614  calibración 1.51  22 s
+2024: 21,098,457 filas de entrenamiento, 12,712,531 de prueba
+  regla    AUC 0.6830  captura 0.431  calibración 0.98  0 s
+  logit    AUC 0.8696  captura 0.654  calibración 1.72  86 s
+  xgboost  AUC 0.8541  captura 0.622  calibración 2.10  23 s
+2025: 22,431,012 filas de entrenamiento, 12,862,354 de prueba
+  regla    AUC 0.6996  captura 0.459  calibración 0.98  0 s
+  logit    AUC 0.8783  captura 0.684  calibración 1.73  88 s
+  xgboost  AUC 0.8857  captura 0.696  calibración 1.58  24 s
+--- 3_modelos.py terminado en 31 minutos
+--- 1_datos.py, 15/11 12:22
+--- 1_datos.py terminado en 0 minutos
+--- 3_modelos.py, 15/11 12:22
+Muestra de entrenamiento: 22,431,012 filas de 2000 a 2024
+2008: 4,244,098 filas de entrenamiento, 8,439,154 de prueba
+  regla            AUC 0.6676  captura 0.403  calibración 0.56  0 s
+  logit            AUC 0.8826  captura 0.643  calibración 0.50  23 s
+  xgboost          AUC 0.8941  captura 0.670  calibración 0.58  8 s
+  xgboost_ajustado AUC 0.8931  captura 0.664  calibración 0.54  50 s
+2009: 5,176,443 filas de entrenamiento, 8,879,191 de prueba
+--- 1_datos.py, 15/11 12:30
+--- 1_datos.py terminado en 0 minutos
+--- 3_modelos.py, 15/11 12:30
+Muestra de entrenamiento: 22,431,012 filas de 2000 a 2024
+2008: 4,244,098 filas de entrenamiento, 8,439,154 de prueba
+  regla            AUC 0.6676  captura 0.403  calibración 0.56  0 s
+  logit            AUC 0.8826  captura 0.643  calibración 0.50  27 s
+  xgboost          AUC 0.8941  captura 0.670  calibración 0.58  9 s
+  xgboost_ajustado AUC 0.8931  captura 0.664  calibración 0.54  53 s
+2009: 5,176,443 filas de entrenamiento, 8,879,191 de prueba
+  regla            AUC 0.6649  captura 0.393  calibración 0.53  0 s
+  logit            AUC 0.8760  captura 0.605  calibración 0.36  29 s
+  xgboost          AUC 0.8880  captura 0.642  calibración 0.43  12 s
+  xgboost_ajustado AUC 0.8871  captura 0.640  calibración 0.46  133 s
+2010: 6,267,374 filas de entrenamiento, 9,186,948 de prueba
+  regla            AUC 0.7109  captura 0.477  calibración 1.29  0 s
+  logit            AUC 0.8884  captura 0.655  calibración 0.74  34 s
+  xgboost          AUC 0.9070  captura 0.698  calibración 0.84  13 s
+  xgboost_ajustado AUC 0.9064  captura 0.696  calibración 0.90  160 s
+2011: 7,360,218 filas de entrenamiento, 9,073,477 de prueba
+  regla            AUC 0.6888  captura 0.439  calibración 1.23  0 s
+  logit            AUC 0.8855  captura 0.647  calibración 0.97  39 s
+  xgboost          AUC 0.9032  captura 0.683  calibración 0.97  15 s
+  xgboost_ajustado AUC 0.9034  captura 0.684  calibración 0.97  136 s
+2012: 8,395,113 filas de entrenamiento, 8,852,698 de prueba
+  regla            AUC 0.6915  captura 0.445  calibración 1.15  0 s
+  logit            AUC 0.8844  captura 0.644  calibración 1.10  39 s
+  xgboost          AUC 0.9033  captura 0.685  calibración 1.01  15 s
+  xgboost_ajustado AUC 0.9037  captura 0.686  calibración 0.98  162 s
+2013: 9,382,720 filas de entrenamiento, 8,484,681 de prueba
+  regla            AUC 0.7110  captura 0.480  calibración 1.30  0 s
+  logit            AUC 0.8928  captura 0.679  calibración 1.40  43 s
+  xgboost          AUC 0.9081  captura 0.707  calibración 1.17  16 s
+  xgboost_ajustado AUC 0.9089  captura 0.709  calibración 1.20  224 s
+2014: 10,303,369 filas de entrenamiento, 8,637,362 de prueba
+  regla            AUC 0.7053  captura 0.472  calibración 1.21  0 s
+  logit            AUC 0.8895  captura 0.679  calibración 1.47  47 s
+  xgboost          AUC 0.9076  captura 0.706  calibración 1.19  17 s
+  xgboost_ajustado AUC 0.9088  captura 0.709  calibración 1.23  219 s
+2015: 11,223,146 filas de entrenamiento, 8,769,854 de prueba
+  regla            AUC 0.7031  captura 0.464  calibración 1.21  0 s
+  logit            AUC 0.8855  captura 0.682  calibración 1.61  53 s
+  xgboost          AUC 0.9061  captura 0.711  calibración 1.27  18 s
+  xgboost_ajustado AUC 0.9077  captura 0.714  calibración 1.31  257 s
+2016: 12,143,183 filas de entrenamiento, 9,041,455 de prueba
+  regla            AUC 0.7018  captura 0.465  calibración 1.09  0 s
+  logit            AUC 0.8810  captura 0.682  calibración 1.58  56 s
+  xgboost          AUC 0.9052  captura 0.717  calibración 1.19  19 s
+  xgboost_ajustado AUC 0.9068  captura 0.720  calibración 1.22  287 s
+2017: 13,085,555 filas de entrenamiento, 9,237,704 de prueba
+  regla            AUC 0.6617  captura 0.390  calibración 0.81  0 s
+  logit            AUC 0.8561  captura 0.618  calibración 1.13  59 s
+  xgboost          AUC 0.8668  captura 0.615  calibración 0.85  20 s
+  xgboost_ajustado AUC 0.8691  captura 0.618  calibración 0.88  312 s
+2018: 14,058,388 filas de entrenamiento, 9,514,504 de prueba
+  regla            AUC 0.7447  captura 0.543  calibración 1.48  0 s
+  logit            AUC 0.8866  captura 0.708  calibración 1.62  65 s
+  xgboost          AUC 0.9081  captura 0.738  calibración 1.36  20 s
+  xgboost_ajustado AUC 0.9061  captura 0.732  calibración 1.45  115 s
+2019: 15,047,342 filas de entrenamiento, 9,761,749 de prueba
+  regla            AUC 0.7120  captura 0.484  calibración 0.94  0 s
+  logit            AUC 0.8727  captura 0.676  calibración 1.49  70 s
+  xgboost          AUC 0.8968  captura 0.716  calibración 1.14  21 s
+  xgboost_ajustado AUC 0.8969  captura 0.715  calibración 1.17  184 s
+2020: 16,059,499 filas de entrenamiento, 10,161,668 de prueba
+  regla            AUC 0.5332  captura 0.158  calibración 0.11  0 s
+  logit            AUC 0.7160  captura 0.298  calibración 0.16  76 s
+  xgboost          AUC 0.7143  captura 0.306  calibración 0.12  23 s
+  xgboost_ajustado AUC 0.7142  captura 0.307  calibración 0.13  329 s
+2021: 17,409,830 filas de entrenamiento, 10,594,228 de prueba
+  regla            AUC 0.7031  captura 0.465  calibración 5.29  0 s
+  logit            AUC 0.8428  captura 0.602  calibración 1.55  78 s
+  xgboost          AUC 0.8240  captura 0.577  calibración 2.16  24 s
+  xgboost_ajustado AUC 0.7979  captura 0.577  calibración 1.84  113 s
+2022: 18,536,673 filas de entrenamiento, 11,993,148 de prueba
+  regla            AUC 0.6443  captura 0.360  calibración 1.32  0 s
+  logit            AUC 0.8241  captura 0.542  calibración 1.81  86 s
+  xgboost          AUC 0.8277  captura 0.544  calibración 1.61  26 s
+  xgboost_ajustado AUC 0.8461  captura 0.578  calibración 1.87  139 s
+2023: 19,786,265 filas de entrenamiento, 12,552,083 de prueba
+  regla            AUC 0.6772  captura 0.418  calibración 0.99  0 s
+  logit            AUC 0.8608  captura 0.628  calibración 1.77  88 s
+  xgboost          AUC 0.8580  captura 0.614  calibración 1.51  27 s
+  xgboost_ajustado AUC 0.8626  captura 0.623  calibración 1.57  188 s
+2024: 21,098,457 filas de entrenamiento, 12,712,531 de prueba
+  regla            AUC 0.6830  captura 0.431  calibración 0.98  0 s
+  logit            AUC 0.8696  captura 0.654  calibración 1.72  95 s
+  xgboost          AUC 0.8541  captura 0.622  calibración 2.10  28 s
+  xgboost_ajustado AUC 0.8603  captura 0.634  calibración 2.01  208 s
+2025: 22,431,012 filas de entrenamiento, 12,862,354 de prueba
+  regla            AUC 0.6996  captura 0.459  calibración 0.98  0 s
+  logit            AUC 0.8783  captura 0.684  calibración 1.73  96 s
+  xgboost          AUC 0.8857  captura 0.696  calibración 1.58  30 s
+  xgboost_ajustado AUC 0.8867  captura 0.700  calibración 1.64  174 s
+--- 3_modelos.py terminado en 102 minutos

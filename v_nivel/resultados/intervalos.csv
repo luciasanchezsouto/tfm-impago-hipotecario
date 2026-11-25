@@ -1,0 +1,23 @@
+medida,modelo,media,ic_inferior,ic_superior,anios_gana,p_signos
+auc,logit,0.8651,0.8434,0.8796,,
+auc,regla,0.6835,0.6612,0.7005,,
+auc,xgboost,0.8755,0.8504,0.8939,,
+auc,xgboost_ajustado,0.8759,0.8503,0.8949,,
+auc,logit_nivel,0.8696,0.8479,0.8839,,
+auc,xgboost_nivel,0.8784,0.8541,0.8949,,
+auc,logit - regla,0.1816,0.1725,0.1901,18,0.0
+auc,xgboost - logit,0.0103,0.0042,0.0157,14,0.0309
+auc,xgboost_ajustado - xgboost,0.0004,-0.0035,0.0037,12,0.2379
+auc,xgboost_nivel - xgboost,0.0029,-0.0024,0.0085,9,1.0
+auc,xgboost_nivel - logit_nivel,0.0088,0.0052,0.012,16,0.0013
+captura,logit,0.6292,0.5811,0.6618,,
+captura,regla,0.4304,0.39,0.4614,,
+captura,xgboost,0.647,0.5953,0.685,,
+captura,xgboost_ajustado,0.6504,0.5992,0.687,,
+captura,logit_nivel,0.638,0.5892,0.6708,,
+captura,xgboost_nivel,0.6531,0.602,0.6874,,
+captura,logit - regla,0.1988,0.1852,0.2111,18,0.0
+captura,xgboost - logit,0.0178,0.0069,0.0279,14,0.0309
+captura,xgboost_ajustado - xgboost,0.0034,0.0001,0.0078,13,0.0963
+captura,xgboost_nivel - xgboost,0.0061,-0.0022,0.0152,9,1.0
+captura,xgboost_nivel - logit_nivel,0.0151,0.0091,0.0209,15,0.0075

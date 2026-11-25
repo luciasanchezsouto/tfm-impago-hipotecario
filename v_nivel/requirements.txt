@@ -1,0 +1,15 @@
+# Versiones con las que se obtuvieron los resultados (Python 3.14).
+#     pip install -r v_nivel/requirements.txt
+polars==2.0.0
+pyarrow==23.0.1  # la usa .to_pandas() de polars
+pandas==3.0.3
+numpy==2.4.6
+scipy==1.18.0
+scikit-learn==1.9.0
+xgboost==3.4.1
+statsmodels==0.14.6
+matplotlib==3.11.0
+joblib==1.5.3
+streamlit==1.58.0
+altair==6.0.0
+protobuf==6.33.5  # la usa probar_app.py
