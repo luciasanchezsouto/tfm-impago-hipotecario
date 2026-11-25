@@ -14,5 +14,6 @@ Para abrir la aplicación, desde la raíz del repositorio:
 pip install -r v_nivel/requirements.txt
 streamlit run v_nivel/5_app.py
 ```
+La aplicación también dispone de link: https://tfm-impago-hipotecario-gjzz8eulsxlxkimrbn7pue.streamlit.app/
 
 La aplicación funciona sin descargar ni entrenar nada: los dos modelos con que puntúa están en `v_nivel/modelos/` y los préstamos de ejemplo son inventados. Los datos de Freddie Mac no están en el repositorio; para repetir los resultados hay que descargarlos por cuenta propia, como explica el `README.md` de la carpeta.
